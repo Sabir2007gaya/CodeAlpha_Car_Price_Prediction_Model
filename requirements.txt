@@ -1,7 +1,7 @@
-pandas
-numpy
-matplotlib
+pandas==2.3.1
 seaborn
-scikit-learn
-joblib
 jupyter
+numpy==2.3.2
+matplotlib==3.10.3
+scikit-learn==1.7.1
+joblib==1.5.1
