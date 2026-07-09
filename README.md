@@ -1,16 +1,83 @@
-# CodeAlpha_Car_Price_Prediction_Model
+# 🚗 CodeAlpha Car Price Prediction Model
 
-📌 Project Overview
+ 📌 Project Overview
 
-This project was developed as part of the **CodeAlpha Machine Learning Internship**. The objective of this project is to predict the selling price of used cars using Machine Learning techniques.
-
-The project follows a complete machine learning workflow, including data preprocessing, exploratory data analysis (EDA), feature engineering, model training, model evaluation, visualization, and saving the trained model for future use.
+This project predicts the selling price of used cars using Machine Learning. The model is built using Linear Regression after performing data preprocessing, exploratory data analysis (EDA), feature encoding, and model evaluation.
 
 ---
-📈 Results
 
-- Model: Linear Regression
-- Mean Absolute Error (MAE): 1.54
-- R² Score: 0.74
+ 📂 Dataset
 
-The model demonstrates a good ability to predict used car selling prices while maintaining reasonable prediction accuracy.
+- Dataset: Car Data
+- Total Records: 301
+- Features Used:
+  - Year
+  - Present Price
+  - Driven_kms
+  - Fuel Type
+  - Selling Type
+  - Transmission
+  - Owner
+
+---
+
+ ✨ Features
+
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Encoding
+- Linear Regression Model
+- Model Evaluation
+- Data Visualization
+- Save Trained Model (.pkl)
+
+---
+
+ 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+ 📈 Model Performance
+
+- Mean Absolute Error (MAE): **1.54**
+- R² Score: **0.74**
+
+---
+
+ 📁 Project Structure
+
+```text
+CodeAlpha_Car_Price_Prediction_Model/
+│
+├── data/
+├── images/
+├── models/
+├── notebooks/
+├── reports/
+├── src/
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+---
+
+🔮 Future Improvements
+
+- Implement Random Forest Regressor
+- Try XGBoost Regressor
+- Hyperparameter Tuning
+- Deploy using Streamlit or Flask
+
+---
+
+## 👨‍💻 Author
+
+**MD Sabir**
